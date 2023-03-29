@@ -29,7 +29,7 @@ void loop() {
 }
 ```
 
-With the standard settings, the following pinouts are required:
+With the standard settings, the following pinouts are required (the FREKVENS board uses SPI and shift registers):
 
 | RP2040 Pin | Frekvens Board | Usage  |
 |------------|----------------|--------|
