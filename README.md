@@ -28,3 +28,16 @@ void loop() {
 	frekvens.Update();
 }
 ```
+
+With the standard settings, the following pinouts are required:
+
+| RP2040 Pin | Frekvens Board | Usage  |
+|------------|----------------|--------|
+| VSYS       | 1 (`Vcc`)      | Power  |
+| GP2        | 2              | `Sck`  |
+| GP3        | 3              | `Mosi` |
+| GP4        | 4              | `En`   |
+| GP5        | 5              | `Lak`  |
+| GND        | 6 (`Gnd`)      | Ground |
+
+If using an RP2040 board, you can either power both the panel and the RP2040 via the FREKVENS' power supply *or* the RP2040's USB.
