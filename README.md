@@ -15,16 +15,16 @@ This library was made and tested for the RP2040 board. It might work on other bo
 Frekvens frekvens;
 
 void setup () {
-  // Settings, e.g. pinouts, need to be made before call to Init.
-  // See Frekvens.hpp for possible settings.
+	// Settings, e.g. pinouts, need to be made before call to Init.
+	// See Frekvens.hpp for possible settings.
 	frekvens.Init();
   
-  // Set a pixel using the built-in gamma curve.
+	// Set a pixel using the built-in gamma curve.
 	frekvens.SetPixelGamma(15, 12, 0.1);
 }
 
 void loop() {
-  // Run the internal update loop.
+	// Run the internal update loop.
 	frekvens.Update();
 }
 ```
