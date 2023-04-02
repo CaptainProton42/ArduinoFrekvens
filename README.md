@@ -34,9 +34,9 @@ With the standard settings, the following pinouts are required (the FREKVENS boa
 | RP2040 Pin | Frekvens Board | Usage  |
 |------------|----------------|--------|
 | VSYS       | 1 (`Vcc`)      | Power  |
-| GP2        | 2              | `Sck`  |
+| GP4        | 2              | `En`   |
 | GP3        | 3              | `Mosi` |
-| GP4        | 4              | `En`   |
+| GP2        | 4              | `Sck`  |
 | GP5        | 5              | `Lak`  |
 | GND        | 6 (`Gnd`)      | Ground |
 
